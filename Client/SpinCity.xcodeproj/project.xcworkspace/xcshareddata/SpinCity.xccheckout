@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6BC0EF9C-4D71-42BB-802A-D57B08005518</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SpinCity</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>530B35B2B8BA83459A25246D9B299224331B7941</key>
+		<string>https://github.com/dpilone/Head-First-iPhone-iPad-Development-3rd-Edition.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>chapter03/SpinCity/SpinCity.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>530B35B2B8BA83459A25246D9B299224331B7941</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dpilone/Head-First-iPhone-iPad-Development-3rd-Edition.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>530B35B2B8BA83459A25246D9B299224331B7941</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>530B35B2B8BA83459A25246D9B299224331B7941</string>
+			<key>IDESourceControlWCCName</key>
+			<string>chapters</string>
+		</dict>
+	</array>
+</dict>
+</plist>

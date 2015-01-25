@@ -1,0 +1,4 @@
+PODS_BRAINTREE_GCC_TREAT_WARNINGS_AS_ERRORS = YES YES YES
+PODS_BRAINTREE_GCC_WARN_ABOUT_MISSING_NEWLINE = YES
+PODS_BRAINTREE_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/Braintree/Braintree/PayPal/mSDK"
+PODS_BRAINTREE_OTHER_LDFLAGS = -ObjC -l"PayPalMobile" -l"c++" -framework "AVFoundation" -framework "AddressBook" -framework "AudioToolbox" -framework "CoreLocation" -framework "CoreMedia" -framework "MessageUI" -framework "MobileCoreServices" -framework "SystemConfiguration" -framework "UIKit" -weak_framework "PassKit"
