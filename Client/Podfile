@@ -1,3 +1,2 @@
 pod 'Braintree'
 pod 'AFNetworking'
-pod 'Mixpanel'

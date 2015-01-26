@@ -1,9 +1,9 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 GCC_TREAT_WARNINGS_AS_ERRORS = YES YES YES
 GCC_WARN_ABOUT_MISSING_NEWLINE = YES
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/Braintree" "${PODS_ROOT}/Headers/Public/Mixpanel"
-LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/Braintree/Braintree/PayPal/mSDK" "$(PODS_ROOT)/Mixpanel/Mixpanel"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/Braintree" -isystem "${PODS_ROOT}/Headers/Public/Mixpanel"
-OTHER_LDFLAGS = -ObjC -l"MPCategoryHelpers" -l"PayPalMobile" -l"Pods-AFNetworking" -l"Pods-Braintree" -l"Pods-Mixpanel" -l"c++" -l"icucore" -framework "AVFoundation" -framework "Accelerate" -framework "AddressBook" -framework "AudioToolbox" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreTelephony" -framework "Foundation" -framework "MessageUI" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -weak_framework "PassKit"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/Braintree"
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/Braintree/Braintree/PayPal/mSDK"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/Braintree"
+OTHER_LDFLAGS = -ObjC -l"PayPalMobile" -l"Pods-AFNetworking" -l"Pods-Braintree" -l"c++" -framework "AVFoundation" -framework "AddressBook" -framework "AudioToolbox" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMedia" -framework "MessageUI" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -weak_framework "PassKit"
 OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
 PODS_ROOT = ${SRCROOT}/Pods
