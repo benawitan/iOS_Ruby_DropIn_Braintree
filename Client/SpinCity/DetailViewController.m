@@ -47,8 +47,9 @@
   [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
   [self configureView];
-    
-    
+  
+   if (!self.braintree){
+
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     [manager GET:@"http://localhost:4567/client_token"
       parameters:NULL
@@ -65,6 +66,7 @@
              NSLog(@"Client Token Failure");
 
          }];
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -114,7 +116,7 @@
 {
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     [manager POST:@"http://localhost:4567/simple_transaction"
-       parameters:@{@"payment_method_nonce": self.nonce,@"price": [self.detailItem valueForKey:@"price"], @"customer_id":@"Customer86025661"}
+       parameters:@{@"payment_method_nonce": self.nonce,@"price": [self.detailItem valueForKey:@"price"], @"customer_id":[[NSUUID UUID] UUIDString]}
           success:^(AFHTTPRequestOperation *operation, id responseObject) {
              NSDictionary *jsonDict = (NSDictionary *) responseObject;
               if([jsonDict objectForKey:@"message"]){
